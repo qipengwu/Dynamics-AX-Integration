@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:i0="http://tempuri.org" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WHSMobileDevicesServices" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org" location="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_WHSMobileDevicesService" type="i0:WHSMobileDevicesService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getCompanies">
+      <soap:operation soapAction="http://tempuri.org/WHSMobileDevicesService/getCompanies" style="document" />
+      <wsdl:input name="getCompanies">
+        <soap:header message="i0:getCompanies_Headers" part="callContext" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getCompaniesResponse">
+        <soap:header message="i0:getCompaniesResponse_Headers" part="infolog" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="SoapServiceFaultFault">
+        <soap:fault use="literal" name="SoapServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDefaultLanguage">
+      <soap:operation soapAction="http://tempuri.org/WHSMobileDevicesService/getDefaultLanguage" style="document" />
+      <wsdl:input name="getDefaultLanguage">
+        <soap:header message="i0:getDefaultLanguage_Headers" part="callContext" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getDefaultLanguageResponse">
+        <soap:header message="i0:getDefaultLanguageResponse_Headers" part="infolog" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="SoapServiceFaultFault">
+        <soap:fault use="literal" name="SoapServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getNextFormHandHeld">
+      <soap:operation soapAction="http://tempuri.org/WHSMobileDevicesService/getNextFormHandHeld" style="document" />
+      <wsdl:input name="getNextFormHandHeld">
+        <soap:header message="i0:getNextFormHandHeld_Headers" part="callContext" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getNextFormHandHeldResponse">
+        <soap:header message="i0:getNextFormHandHeldResponse_Headers" part="infolog" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="SoapServiceFaultFault">
+        <soap:fault use="literal" name="SoapServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="workUserDisplaySettings">
+      <soap:operation soapAction="http://tempuri.org/WHSMobileDevicesService/workUserDisplaySettings" style="document" />
+      <wsdl:input name="workUserDisplaySettings">
+        <soap:header message="i0:workUserDisplaySettings_Headers" part="callContext" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="workUserDisplaySettingsResponse">
+        <soap:header message="i0:workUserDisplaySettingsResponse_Headers" part="infolog" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="SoapServiceFaultFault">
+        <soap:fault use="literal" name="SoapServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WHSMobileDevicesServices">
+    <wsdl:port name="BasicHttpBinding_WHSMobileDevicesService" binding="tns:BasicHttpBinding_WHSMobileDevicesService">
+      <soap:address location="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

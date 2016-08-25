@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="508725ef-a4db-4abe-8f0d-2c5adfe26c08" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="tempuri.org.wsdl" MetadataType="Wsdl" ID="9dde45b5-16ee-436f-81b6-2aec10878787" SourceId="1" SourceUrl="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="78c473bd-bee0-4505-ac22-01a4dec5ca86" SourceId="1" SourceUrl="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="0fdbf86d-2e34-4be0-8591-9bf39f0ff52a" SourceId="1" SourceUrl="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="4ff801e8-150b-4a15-ba13-c1bed23ec802" SourceId="1" SourceUrl="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices/mex" />
+    <MetadataFile FileName="tempuri.org.xsd" MetadataType="Schema" ID="54e5712c-0c7d-4708-8c0d-65428e99f734" SourceId="1" SourceUrl="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices/mex" />
+    <MetadataFile FileName="datacontracts.xsd" MetadataType="Schema" ID="225d9b72-51ee-43cf-92ec-0f6f61aa09cf" SourceId="1" SourceUrl="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="14cee758-5ba2-4a50-8e85-b6724445564f" SourceId="1" SourceUrl="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices/mex" />
+    <MetadataFile FileName="Arrays1.xsd" MetadataType="Schema" ID="2a83b65c-23b0-4086-b110-c24d06ee4b44" SourceId="1" SourceUrl="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices/mex" />
+    <MetadataFile FileName="tempuri.org1.wsdl" MetadataType="Wsdl" ID="ab224c71-6c6f-4dc3-97e2-0df46fa403e0" SourceId="1" SourceUrl="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices/mex" />
+    <MetadataFile FileName="datacontracts1.xsd" MetadataType="Schema" ID="a1fb4083-693b-48d8-8217-7b71473c0ecb" SourceId="1" SourceUrl="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices/mex" />
+    <MetadataFile FileName="tempuri.org1.xsd" MetadataType="Schema" ID="144dc397-9833-4654-860e-644f7c07131b" SourceId="1" SourceUrl="https://mj-sandboxrtw.cloudax.dynamics.com/soap/services/WHSMobileDevicesServices/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

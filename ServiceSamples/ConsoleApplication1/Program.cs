@@ -32,6 +32,7 @@ namespace ConsoleApplication1
                 HttpRequestMessageProperty requestMessage = new HttpRequestMessageProperty();
                 requestMessage.Headers[OAuthHelper.OAuthHeader] = oauthHeader;
                 OperationContext.Current.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = requestMessage;
+                callContext.Company = "USMF";
 
                 while (1 == 1)
                 {

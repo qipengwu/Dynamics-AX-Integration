@@ -19,19 +19,19 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="https://paulwuax7-ctp8aos.cloudax.dynamics.com/soap/services/storageservicegroup" Protocol="http" SourceId="1" />
+    <MetadataSource Address="https://paulwuupdate1aos.cloudax.dynamics.com/soap/services/storageservicegroup" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="storageservicegroup3.xsd" MetadataType="Schema" ID="14d2a296-6d36-4814-a24d-c8d150189f71" SourceId="1" SourceUrl="https://paulwuax7-ctp8aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd1" />
-    <MetadataFile FileName="storageservicegroup.xsd" MetadataType="Schema" ID="a678d9d6-cbd5-4ed8-b10b-27567405d77d" SourceId="1" SourceUrl="https://paulwuax7-ctp8aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd3" />
-    <MetadataFile FileName="storageservicegroup1.xsd" MetadataType="Schema" ID="690eccab-5116-4a8d-a549-4205f3c523ea" SourceId="1" SourceUrl="https://paulwuax7-ctp8aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd6" />
-    <MetadataFile FileName="storageservicegroup.wsdl" MetadataType="Wsdl" ID="d6c6013c-65ec-4938-a0e0-c8d7dd2b5195" SourceId="1" SourceUrl="https://paulwuax7-ctp8aos.cloudax.dynamics.com/soap/services/storageservicegroup?wsdl" />
-    <MetadataFile FileName="storageservicegroup11.xsd" MetadataType="Schema" ID="3df59fdf-ab38-42ec-aa04-6a2f45ed0204" SourceId="1" SourceUrl="https://paulwuax7-ctp8aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd4" />
-    <MetadataFile FileName="storageservicegroup.disco" MetadataType="Disco" ID="7695c33b-bcdd-4976-8b78-c059ae66ee6a" SourceId="1" SourceUrl="https://paulwuax7-ctp8aos.cloudax.dynamics.com/soap/services/storageservicegroup?disco" />
-    <MetadataFile FileName="storageservicegroup2.xsd" MetadataType="Schema" ID="1a5dc595-7c9f-4d48-9c30-4fc76885d7f2" SourceId="1" SourceUrl="https://paulwuax7-ctp8aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd2" />
-    <MetadataFile FileName="storageservicegroup12.xsd" MetadataType="Schema" ID="53fb6699-7e5e-4394-b9e3-29e1c190cf1d" SourceId="1" SourceUrl="https://paulwuax7-ctp8aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd5" />
-    <MetadataFile FileName="storageservicegroup4.xsd" MetadataType="Schema" ID="7a5c33ab-8908-4778-932c-e408a8aa0bc6" SourceId="1" SourceUrl="https://paulwuax7-ctp8aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd0" />
-    <MetadataFile FileName="storageservicegroup1.wsdl" MetadataType="Wsdl" ID="3a5f1314-14cf-4a5f-bf5d-6e7e772558a9" SourceId="1" SourceUrl="https://paulwuax7-ctp8aos.cloudax.dynamics.com/soap/services/storageservicegroup?wsdl=wsdl0" />
+    <MetadataFile FileName="storageservicegroup5.xsd" MetadataType="Schema" ID="73b8101b-8a5e-4f94-9b3f-a00f3da8f946" SourceId="1" SourceUrl="https://paulwuupdate1aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd5" />
+    <MetadataFile FileName="storageservicegroup51.xsd" MetadataType="Schema" ID="f3e9ab73-915b-46da-9e5a-0d616350c16c" SourceId="1" SourceUrl="https://paulwuupdate1aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd4" />
+    <MetadataFile FileName="storageservicegroup52.xsd" MetadataType="Schema" ID="599236a3-9b12-4abe-82fc-0171cbb56ebb" SourceId="1" SourceUrl="https://paulwuupdate1aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd3" />
+    <MetadataFile FileName="storageservicegroup2.wsdl" MetadataType="Wsdl" ID="ba183658-2b03-42cc-ab7e-466b9c68c241" SourceId="1" SourceUrl="https://paulwuupdate1aos.cloudax.dynamics.com/soap/services/storageservicegroup?wsdl=wsdl0" />
+    <MetadataFile FileName="storageservicegroup53.xsd" MetadataType="Schema" ID="0d0c5dab-1bcc-429e-bea2-057043db3b69" SourceId="1" SourceUrl="https://paulwuupdate1aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd6" />
+    <MetadataFile FileName="storageservicegroup21.wsdl" MetadataType="Wsdl" ID="4b635f18-48e1-4d2c-a781-15c4c00548c5" SourceId="1" SourceUrl="https://paulwuupdate1aos.cloudax.dynamics.com/soap/services/storageservicegroup?wsdl" />
+    <MetadataFile FileName="storageservicegroup1.disco" MetadataType="Disco" ID="f83d9176-2027-4a17-8833-d32ba6024c78" SourceId="1" SourceUrl="https://paulwuupdate1aos.cloudax.dynamics.com/soap/services/storageservicegroup?disco" />
+    <MetadataFile FileName="storageservicegroup54.xsd" MetadataType="Schema" ID="65bde4b9-b73d-4836-a581-bbdb25002f0e" SourceId="1" SourceUrl="https://paulwuupdate1aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd1" />
+    <MetadataFile FileName="storageservicegroup55.xsd" MetadataType="Schema" ID="675cd9cd-460c-4398-9685-1646a32a8a36" SourceId="1" SourceUrl="https://paulwuupdate1aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd0" />
+    <MetadataFile FileName="storageservicegroup56.xsd" MetadataType="Schema" ID="9f8f2a62-b89e-4943-b271-f381c1cebd10" SourceId="1" SourceUrl="https://paulwuupdate1aos.cloudax.dynamics.com/soap/services/storageservicegroup?xsd=xsd2" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

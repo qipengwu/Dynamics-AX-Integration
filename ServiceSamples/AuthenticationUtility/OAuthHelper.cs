@@ -1,5 +1,5 @@
 ﻿using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using Microsoft.WindowsAzure.MobileServices;
+//using Microsoft.WindowsAzure.MobileServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;

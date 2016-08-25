@@ -73,27 +73,27 @@
     <None Include="Service References\StorageServices\ConsoleApplication1.StorageServices.Infolog.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\StorageServices\storageservicegroup.wsdl" />
-    <None Include="Service References\StorageServices\storageservicegroup.xsd">
+    <None Include="Service References\StorageServices\storageservicegroup2.wsdl" />
+    <None Include="Service References\StorageServices\storageservicegroup21.wsdl" />
+    <None Include="Service References\StorageServices\storageservicegroup5.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\StorageServices\storageservicegroup1.wsdl" />
-    <None Include="Service References\StorageServices\storageservicegroup1.xsd">
+    <None Include="Service References\StorageServices\storageservicegroup51.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\StorageServices\storageservicegroup11.xsd">
+    <None Include="Service References\StorageServices\storageservicegroup52.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\StorageServices\storageservicegroup12.xsd">
+    <None Include="Service References\StorageServices\storageservicegroup53.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\StorageServices\storageservicegroup2.xsd">
+    <None Include="Service References\StorageServices\storageservicegroup54.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\StorageServices\storageservicegroup3.xsd">
+    <None Include="Service References\StorageServices\storageservicegroup55.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\StorageServices\storageservicegroup4.xsd">
+    <None Include="Service References\StorageServices\storageservicegroup56.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -102,9 +102,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\StorageServices\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\StorageServices\storageservicegroup.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\StorageServices\configuration91.svcinfo" />
@@ -123,6 +120,9 @@
       <Project>{195ed9b3-92ad-417e-b20a-6438dd0e0b55}</Project>
       <Name>AuthenticationUtility</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\StorageServices\storageservicegroup1.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

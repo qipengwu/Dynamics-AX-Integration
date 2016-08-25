@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationUtility", "AuthenticationUtility\AuthenticationUtility.csproj", "{195ED9B3-92AD-417E-B20A-6438DD0E0B55}"
 EndProject
@@ -22,6 +22,15 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonConsoleApplication", "JsonConsoleApplication\JsonConsoleApplication.csproj", "{003F5F9E-658D-4C90-B185-6726A5CF41FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{29443EB0-AD0B-4365-9C27-39C86D7221FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{14E333B5-A485-4CD7-BA04-171D5FC0A428}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.csproj", "{BA9C8616-FDB1-4E25-B3E0-3D74FC545AAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +70,10 @@ Global
 		{29443EB0-AD0B-4365-9C27-39C86D7221FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29443EB0-AD0B-4365-9C27-39C86D7221FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29443EB0-AD0B-4365-9C27-39C86D7221FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9C8616-FDB1-4E25-B3E0-3D74FC545AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9C8616-FDB1-4E25-B3E0-3D74FC545AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9C8616-FDB1-4E25-B3E0-3D74FC545AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9C8616-FDB1-4E25-B3E0-3D74FC545AAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

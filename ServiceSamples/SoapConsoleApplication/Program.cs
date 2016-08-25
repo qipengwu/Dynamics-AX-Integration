@@ -7,7 +7,7 @@ using System.ServiceModel;
 using System.ServiceModel.Channels;
 
 namespace SoapConsoleApplication
-{
+{/*
     class Program
     {
         public const string UserSessionServiceName = "UserSessionService";
@@ -60,6 +60,30 @@ namespace SoapConsoleApplication
             Console.WriteLine("User ID: {0}", sessionInfo.UserId);
             Console.WriteLine("Is Admin: {0}", sessionInfo.IsSysAdmin);
             Console.ReadLine();
+        }
+    }*/
+
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            ServiceReference1.CallContext callContext = new ServiceReference1.CallContext();
+            ServiceReference1.WHSMobileDevicesServiceClient client = new ServiceReference1.WHSMobileDevicesServiceClient();
+
+            var oauthHeader = OAuthHelper.GetAuthenticationHeader();
+
+
+            using (OperationContextScope operationContextScope = new OperationContextScope(client.InnerChannel))
+            {
+                HttpRequestMessageProperty requestMessage = new HttpRequestMessageProperty();
+                requestMessage.Headers[OAuthHelper.OAuthHeader] = oauthHeader;
+                OperationContext.Current.OutgoingMessageProperties[HttpRequestMessageProperty.Name] = requestMessage;
+
+                string lid = string.Empty;
+                client.getDefaultLanguage(callContext, out lid);
+
+            }
         }
     }
 }

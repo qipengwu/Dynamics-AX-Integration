@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="t65xtqkEV8fwByHiSo9mmsdG+p4=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="zZxpKwK9Y48DnJh0VFlafAHRYHU=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_StorageServices">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_StorageServices" contract="StorageServices.StorageServices" bindingType="basicHttpBinding" address="https://paulwuax7-ctp8aos.cloudax.dynamics.com/soap/services/storageservicegroup" bindingConfiguration="BasicHttpBinding_StorageServices">
+    <endpoint name="BasicHttpBinding_StorageServices" contract="StorageServices.StorageServices" bindingType="basicHttpBinding" address="https://paulwuupdate1aos.cloudax.dynamics.com/soap/services/storageservicegroup" bindingConfiguration="BasicHttpBinding_StorageServices">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>https://paulwuax7-ctp8aos.cloudax.dynamics.com/soap/services/storageservicegroup</serializedValue>
+          <serializedValue>https://paulwuupdate1aos.cloudax.dynamics.com/soap/services/storageservicegroup</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
