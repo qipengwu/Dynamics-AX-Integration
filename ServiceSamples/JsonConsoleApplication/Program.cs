@@ -55,7 +55,7 @@ namespace OAuthXppConsoleApplication
         static void Main(string[] args)
         {
             var request = HttpWebRequest.Create(GetUserSessionOperationPath);
-            request.Headers[OAuthHelper.OAuthHeader] = OAuthHelper.GetAuthenticationHeader();
+            request.Headers[OAuthHelper.OAuthHeader] = OAuthHelper.GetAuthenticationHeader().Result;
             request.Method = "POST";
             request.ContentLength = 0;
             using (var response = (HttpWebResponse)request.GetResponse())

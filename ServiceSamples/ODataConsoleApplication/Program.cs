@@ -17,35 +17,27 @@ namespace ODataConsoleApplication
         static void Main(string[] args)
         {
             Uri oDataUri = new Uri(ODataEntityPath, UriKind.Absolute);
-            var context = new Resources(oDataUri);
+            var context = new AXODataContext(oDataUri);
 
-            context.SendingRequest2 += new EventHandler<SendingRequest2EventArgs>(delegate (object sender, SendingRequest2EventArgs e)
+            context.SendingRequest2 += new EventHandler<SendingRequest2EventArgs>(delegate(object sender, SendingRequest2EventArgs e)
             {
                 var authenticationHeader = OAuthHelper.GetAuthenticationHeader();
                 e.RequestMessage.SetHeader(OAuthHelper.OAuthHeader, authenticationHeader);
             });
 
-            Console.WriteLine();
+            SalesOrderHeader soh = context.CreateTrackedEntityInstance<SalesOrderHeader>();
+            soh.DataAreaId = "USMF";
+            soh.SalesOrderNumber = "000901";
+            soh.OrderingCustomerAccountNumber = "US-022";
 
-            foreach (var fmcust in context.FleetCustomers.AsEnumerable())
-            {
-                Console.WriteLine("FMCustomer name: {0}", fmcust.FirstName);
-            }
-            FleetCustomer fleetCustomer = FleetCustomer.CreateFleetCustomer("123456", "Paul1",11111,"Wu");
+            SalesOrderLine sol = context.CreateTrackedEntityInstance<SalesOrderLine>();
+            sol.DataAreaId = "USMF";
+            sol.ItemNumber = "D0001";
+            sol.SalesOrderNumber = soh.SalesOrderNumber;
 
-            try
-            {
-                context.AddToFleetCustomers(fleetCustomer);
+            //SaveChangesOptions.PostOnlySetProperties | SaveChangesOptions.BatchWithSingleChangeset
+            context.SaveChanges();
 
-                // Send updates to the data service.
-                DataServiceResponse response = context.SaveChanges();
-            }
-            catch (Exception ex)
-            {
-                throw new ApplicationException(
-                    "An error occurred when saving changes.", ex);
-            }
-            
             Console.ReadLine();
         }
     }

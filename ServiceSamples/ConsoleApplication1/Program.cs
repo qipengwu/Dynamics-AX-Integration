@@ -24,7 +24,7 @@ namespace ConsoleApplication1
             int queueSize;
             string fileName;
             StorageServices.AXFileInfo fileInfo;
-            var oauthHeader = OAuthHelper.GetAuthenticationHeader();
+            var oauthHeader = OAuthHelper.GetAuthenticationHeader().Result;
 
 
             using (OperationContextScope operationContextScope = new OperationContextScope(client.InnerChannel))
